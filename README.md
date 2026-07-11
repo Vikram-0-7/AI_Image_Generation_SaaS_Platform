@@ -15,13 +15,13 @@ An AI-powered full-stack SaaS platform that **converts natural language text pro
 ### 🔍 Generation Workspace
 
 <p align="center">
-  <img src="./web_photos/live_search.png" alt="Result Page" width="900"/>
+  <img src="./web_photos/gen.png" alt="Result Page" width="900"/>
 </p>
 
 ### 💳 Pricing & Credits
 
 <p align="center">
-  <img src="./web_photos/schemes.png" alt="Pricing Page" width="900"/>
+  <img src="./web_photos/price.png" alt="Pricing Page" width="900"/>
 </p>
 
 ---
