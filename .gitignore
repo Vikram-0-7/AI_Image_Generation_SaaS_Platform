@@ -43,7 +43,7 @@ Thumbs.db
 *.sw?
 
 # Generated assets
-images_generated/
+# images_generated/
 .PROJECT_ONE_FILE.md
 .verification_report.md
 PROJECT_ONE_FILE.md
