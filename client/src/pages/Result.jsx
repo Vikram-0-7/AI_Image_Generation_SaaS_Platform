@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 
 import { assets } from '../assets/assets'
-import { AppContext } from '../context/Appcontext'
+import { AppContext } from '../context/AppContext'
 const Result = () => {
   const { generateImage } = useContext(AppContext)
   const [isImageLoaded, setIsImageLoaded] = useState(false)
