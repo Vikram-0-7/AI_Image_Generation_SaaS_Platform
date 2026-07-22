@@ -11,10 +11,17 @@ const app = express()
 app.use(express.json())
 // app.use(cors())
 // server/server.js
+// app.use(cors({
+//   origin: ["https://prompt2image-api.onrender.com", "http://localhost:5173"],
+//   credentials: true
+// }))
 app.use(cors({
-  origin: ["https://prompt2image-api.onrender.com", "http://localhost:5173"],
+  origin: [
+    "http://localhost:5173",
+    "https://prompt2image-dusky.vercel.app"
+  ],
   credentials: true
-}))
+}));
 await connectDB()
 app.use('/api/user', userRouter)
 app.use('/api/image', imageRouter)
