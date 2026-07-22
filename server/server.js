@@ -9,7 +9,12 @@ const PORT = process.env.PORT || 4000
 const app = express()
 
 app.use(express.json())
-app.use(cors())
+// app.use(cors())
+// server/server.js
+app.use(cors({
+  origin: ["https://prompt2image-api.onrender.com", "http://localhost:5173"],
+  credentials: true
+}))
 await connectDB()
 app.use('/api/user', userRouter)
 app.use('/api/image', imageRouter)
